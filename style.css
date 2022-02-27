@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 870px;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list {
+    width: 335px;
+    height: 720px;
+    border-radius: 30px;
+    margin: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .menu {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photo_profile {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(243, 190, 172);
+    margin-bottom: 30px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .info_name {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .info_genre {
+    font-size: 10px;
+    color: #b8b8b8;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .btn div {
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 12px;
+  }
+  
+  .btn_shuffle {
+    background-color: black;
+    color: #b8b8b8;
+  }
+  
+  .btn_heart {
+    box-shadow: 0px 5px 5px #b8b8b8;
+  }
+  
+  .btn_heart_num {
+    margin-left: 8px;
+  }
+  
+  .songs_song {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 295px;
+    height: 70px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+  }
+  
+  .songs_song_img_cover {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+  }
+  .songs_song_img {
+    margin-left: 23px;
+    margin-right: 15px;
+    position: relative;
+  }
+  
+  .songs_song_info {
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+  }
+  .songs_song_info-singer {
+    color: #b8b8b8;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .songs_song_info-title {
+    font-size: 14px;
+  }
+  .songs_song_menu {
+    font-size: 13px;
+    color: #b8b8b8;
+  }
+  .playing {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    transform: rotate(270deg);
+  }
+  
+  .play {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    color: #f6f6f6;
+    width: 305px;
+    height: 65px;
+    border-radius: 32.5px;
+    position: absolute;
+    top: 645px;
+    padding: 13px 25px;
+  }
+  .play_info {
+    width: 165px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .play_info-singer {
+    font-size: 13px;
+    color: #b8b8b8;
+  }
+  .play_info-title {
+    font-size: 15px;
+    font-weight: 550;
+  }
+  
+  .play_btn {
+    display: flex;
+    width: 88px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .now {
+    width: 335px;
+    height: 720px;
+    border-radius: 30px;
+    margin: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .now_photo {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .now_photo-img {
+    width: 265px;
+    height: 265px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px #f6f0be;
+  }
+  
+  .now_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .now_info-title {
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 14px;
+  }
+  
+  .now_info-singer {
+    font-size: 15px;
+    color: #b8b8b8;
+  }
+  
+  .now_runtime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  .now_runtime-min {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    font-size: 12px;
+    color: #b8b8b8;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .now_runtime_bar {
+    display: flex;
+  }
+  
+  .now_runtime_bar-ed {
+    width: 110px;
+    border: 1px solid black;
+  }
+  .fa-circle {
+    position: absolute;
+    bottom: 150px;
+    left: 130px;
+  }
+  
+  .now_runtime_bar-lf {
+    width: 170px;
+    border: 1px solid #b8b8b8;
+  }
+  
+  .now_btn {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .now_btn-play {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gray {
+    color: #b8b8b8;
+  }
+  
